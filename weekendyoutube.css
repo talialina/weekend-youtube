@@ -1,1 +1,167 @@
+/* CSS files add styling rules to your content */
 
+html {
+  background-color: #2E86C1;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 50px;
+  background-color: white;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.youtube-logo {
+  position: relative;
+  top: -5px;
+  width: 100px;
+  height: 80px;
+  flex: 1;
+  margin-right: 10px;
+}
+.navbarmenu {
+  flex: 1;
+}
+.searchbar {
+  position: relative;
+  top: 25px;
+  flex: 1;
+}
+.search-bar {
+  max-width: 1000px;
+  width: 80%;
+  border: none;
+  border-left: 1px solid lightgray;
+  padding: 8px;
+}
+.upload-b {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  border-left: 1px darkgray solid;
+  color: darkgray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+}
+/* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  text-decoration: none;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+  text-decoration: none;
+} */
+/* dropdown */
+<select id="gender" > <option > natalia</option > </select > 
+#gender {
+  
+}
+.side-buttons {
+  font-color: lightgray;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+ul.nobullet {
+  list-style-type: none;
+}
+h6 {
+  color: darkgray;
+  font-family: sans-serif;
+}
+.sidebar-styling {
+  text-decoration: none;
+}
+
+.flex-grid {
+  color: gray;
+  display: flex;
+  margin: auto -1rem 1rem;
+}
+
+.col {
+  background-color: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.sidebar-styling {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.sidebar {
+  flex: 1;
+}
+
+.main {
+  flex: 3;
+}
+.subscribe {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.like {
+  margin-right: -2px;
+  border-radius: 5px 0px 0px 5px;
+}
+.like:hover {
+  background-color: green;
+}
+.dislike {
+  border-radius: 0 5px 5px 0;
+}
+.dislike:hover {
+  background-color: red;
+}
+.together {
+  background-color: lightgray;
+  border: none;
+  color: darkgray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+}
+.moveright {
+  margin-left: 150px;
+}
+.moveright2 {
+  margin-left: 200px;
+}
+.onemoretime {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -20px;
+}
+.date{
+  position: relative;
+  margin-left: 30px;
+  color: gray;
+}
+.moveup{
+  position:relative;
+  top: -15px;
+}
